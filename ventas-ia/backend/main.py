@@ -6,9 +6,9 @@ import os
 app = FastAPI()
 
 DB_CONFIG = {
-    "host": os.getenv("DB_HOST", "tu-servidor.mysql.database.azure.com"),
-    "user": os.getenv("DB_USER", "tu_usuario"),
-    "password": os.getenv("DB_PASSWORD", "tu_contraseña"),
+    "host": os.getenv("DB_HOST", "pruebai.mysql.database.azure.com"),
+    "user": os.getenv("DB_USER", "oebwvuukfg"),
+    "password": os.getenv("DB_PASSWORD", "Afsmnz78"),
     "database": os.getenv("DB_NAME", "ventas_db")
 }
 
